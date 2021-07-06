@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+* {
+    font-family: 'Arimo', sans-serif;
+    list-style: none;
+    border: none;
+    border-radius: 8px;
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+.question-container{
+    background-color: white;
+    padding: 3rem 5rem;
+    width: 75%;
+    margin: 2rem auto;
+    box-shadow: 0px 5px 5px rgb(196, 196, 196);
+}
+h2{
+    text-align: left;
+}
+h1
+{
+    text-align: center;
+    margin-left: 45%;
+}
+.question{
+    font-size: 1rem;
+}
+
+.question-container,
+button,
+.submit{
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+}
+
+button{
+    padding: 15px 20px;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+button:hover{
+    transform: scale(1.04);
+    transition: all 0.3s ease;
+
+}
+
+.submit{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+li{
+    text-align: left;
+}
+.header{
+    color: white;
+    background-color: #0b6c92;
+    width: 100%;
+    padding: 1px 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.reset-button,
+.reset-button-top{
+    background-color: #f11158;
+}
+.reset-button:hover,
+.reset-button-top:hover{
+    background-color: #c50c46;
+}
+.submit-btn{
+    background-color: #0096D1;
+}
+.submit-btn:hover{
+    background-color: #007fb1;
+}
+
+.correctAns{
+    color: rgb(112, 196, 28);
+}
+
+.wrongAns{
+    color: rgb(199, 38, 38);
+}
+
+.header2{
+    margin-right: 10%;
+    border:1px solid rgb(255, 255, 255);
+    padding: 0 2rem;
+    background-color:white ;
+    justify-content: center;
+    text-align: center;
+}
+
+.header2 h2{
+    font-size:2rem;
+    text-align: center;
+}
+
+.header2 p{
+    margin-top: -15px;
+}
+.reset-button-top{
+    padding: 0.5rem 1rem;
+    margin-top: 5px;
+}
